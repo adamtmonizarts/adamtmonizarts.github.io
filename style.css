@@ -1,0 +1,132 @@
+*{
+    padding: 25;
+    margin: 0;
+    /* box-sizing: border-box;
+    border:dashed; */
+    }
+
+body{
+  background-image: url("assets/Background\ 2.png"); 
+  font-family: 'Source Code Pro', monospace;
+  width: 100%;
+}
+/* the main container */
+.main-container{
+  max-width: 3000px;
+  margin: 0 auto;
+}
+
+.front-card{
+ width: 100px;
+ height: 100%;
+}
+.icon-gif{
+  height:50em;
+  margin-left:35%;
+}
+.swirly-man{
+  width: 3000px;
+  animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 2s; /* don't forget to set a duration! */
+position: absolute;
+z-index: -1; 
+}
+
+.name{
+  max-width: 50%;
+  max-height: 25%;
+  margin-left: 23%;
+  animation: bounceInDown; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+h1{
+  /* to left align text */
+  font-size: 5em;
+  margin-bottom: 10%;
+  margin-left: 31%;
+}
+.icon-container{
+  width: 25em;
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-top: 30%;
+  z-index: 2;
+   
+}
+.icon-net{
+  fill:rgb(131, 73, 8);
+  width:30em;
+  height:30em;
+  margin-left: 125em;
+  
+}
+
+h2{
+  font-size: 3.5em;
+  margin-left: 31%;
+}
+
+h3{
+  font-size: 3.5em;
+  margin-bottom: 10%;
+  margin-left: 31%;
+
+}
+
+h4{
+  font-size: 3.5em;
+  margin-left: 80%;
+
+}
+.icon-net:hover{
+  fill:rgb(117, 168, 189);
+  animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.icon-insta{
+  fill:rgb(131, 73, 8);
+  width:27em;
+  height:27em;
+  margin-left: 105em;
+  
+}
+
+.icon-insta:hover{
+  fill:rgb(117, 168, 189);
+  animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.icon-email{
+  fill:rgb(131, 73, 8);
+  width:40em;
+  height:40em;
+  margin-left: 110em;
+}
+
+.icon-email:hover{
+  fill:rgb(117, 168, 189);
+  animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
